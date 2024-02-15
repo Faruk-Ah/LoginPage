@@ -1,0 +1,58 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient();
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form {
+    background: rgb(214, 214, 214);
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+    width: 350px;
+}
+
+    form input {
+        display: block;
+        background: none;
+        margin: 18px auto;
+        padding: 8px;
+        text-align: center;
+        border: 2px solid #4d4d4d;
+        outline: none;
+        width: 180px;
+        font-size: 22px;
+        border-radius: 10px;
+    }
+
+        form input[type="submit"] {
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 800;
+            background: #56a2ce;
+            color: white;
+        }
